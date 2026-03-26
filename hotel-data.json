@@ -1,0 +1,43 @@
+{
+  "hotel": {
+    "name": "HOTEL_NAME",
+    "category": "Luxury Hotel",
+    "style": "Eco Lodge",
+    "adults_only": true
+  },
+
+  "location": {
+    "country": "COUNTRY",
+    "region": "REGION",
+    "nearest_airport": "AIRPORT_NAME",
+    "transfer_duration_minutes": 60
+  },
+
+  "amenities": [
+    "Spa",
+    "Restaurant",
+    "Pool",
+    "Air Conditioning",
+    "WiFi"
+  ],
+
+  "activities": [
+    "Wildlife Tours",
+    "Diving",
+    "Hiking",
+    "Yoga"
+  ],
+
+  "sustainability": {
+    "certification": "SUSTAINABILITY_CERTIFICATION",
+    "programs": [
+      "Wildlife Protection",
+      "Forest Conservation"
+    ]
+  },
+
+  "transport": {
+    "accessible_by_boat_only": false,
+    "airport_transfer_available": true
+  }
+}
