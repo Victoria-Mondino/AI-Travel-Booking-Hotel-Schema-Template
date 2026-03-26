@@ -1,0 +1,1 @@
+# AI-Travel-Booking-Hotel-Schema-Template
