@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "HOTEL_NAME",
+  "description": "Luxury eco lodge located in a tropical destination.",
+  "url": "https://examplehotel.com",
+  "telephone": "+000000000",
+  "email": "info@examplehotel.com",
+
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "STREET_ADDRESS",
+    "addressLocality": "CITY",
+    "addressRegion": "STATE",
+    "postalCode": "ZIP_CODE",
+    "addressCountry": "COUNTRY"
+  },
+
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "00.0000",
+    "longitude": "00.0000"
+  },
+
+  "starRating": {
+    "@type": "Rating",
+    "ratingValue": "5"
+  },
+
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Spa",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Adults Only",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Ocean View",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Restaurant",
+      "value": true
+    }
+  ],
+
+  "checkinTime": "14:00",
+  "checkoutTime": "11:00",
+
+  "petsAllowed": false,
+
+  "priceRange": "$$$",
+
+  "makesOffer": {
+    "@type": "Offer",
+    "url": "https://examplehotel.com/book",
+    "priceCurrency": "USD"
+  }
+}
